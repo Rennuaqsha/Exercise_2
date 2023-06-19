@@ -1,0 +1,58 @@
+body {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/452/927/703/road-forest-nature-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Great Vibes' fantasy;
+    background-color: rgb(5, 78, 161);
+    color: aqua;
+    box-shadow: 1px 1px 2px rgb(80, 58, 146);
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+h2 {
+    font-family: 'Lobster Two' fantasy;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px rgb(9, 164, 220);
+    background-color: rgb(5, 78, 161);
+    color: aqua;
+    box-shadow: 1px 1px 2px rgb(80, 58, 146);
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+}
+
+.button-container .button i {
+    margin-right: 5px;
+}
+
+.button-container {
+    text-align: left;
+}
+
+.rounded-button {
+    border-radius: 25px;
+    padding: 10px 20px;
+}

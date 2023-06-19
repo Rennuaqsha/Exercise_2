@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM Javascript</title>
+</head>
+
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <h3>Pendaftaran Peminatan</h3>
+            </div>
+            <form action="">
+                <label for="nama">Nama</label><br>
+                <input type="text" placeholder="Nama anda" id="nama"><br><br>
+                <label for="nim">NIM</label><br>
+                <input type="text" placeholder="NIM anda" id="nim"><br>
+                <p>Peminatan pada bidang:</p>
+                <input type="radio" name="peminatan" id="programming" value="programming">
+                <label for="programming">Programming</label> <br>
+                <input type="radio" name="peminatan" id="desain" value="desain">
+                <label for="programming">Desain</label> <br>
+                <input type="radio" name="peminatan" id="jaringan" value="jaringan">
+                <label for="programming">Jaringan</label><br>
+                <input type="radio" name="peminatan" id="data" value="data">
+                <label for="programming">Data</label><br><br>
+                <label for="">Alamat</label><br>
+                <textarea placeholder="Tulis alamat mu disini" name="alamat" id="alamat" cols="30"
+                    rows="5"></textarea><br><br>
+                <label for="Pilih Angkatan">Pilih Angkatan</label>
+                <select name="angkatan" id="angkatan">
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                </select><br><br>
+                <input type="radio" name="angkatan" id="angkatan" value="angkatan">
+                <label for="Tanggal">Tanggal</label>
+                <input type="Date" name="Date" id="Date"> <br><br>
+                <div class="button-container">
+                    <button type="submit" onclick="kirimData()" class="button"><i
+                            class="fas fa-paper-plane"></i>Kirim</button>
+                    <a href="exercise2.html" class="button"><i class="fas fa-arrow-left"></i>Kembali</a>
+                </div>
+            </form>
+        </div>
+        <script src="jsCH5.js"></script>
+    </body>
+
+
+</html>
